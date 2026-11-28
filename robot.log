@@ -1,0 +1,23 @@
+2026-11-28 13:47:12,240 INFO Report robot started
+2026-11-28 13:47:12,241 INFO Reading east.xlsx
+2026-11-28 13:47:12,355 INFO Reading north.xlsx
+2026-11-28 13:47:12,358 INFO Reading south.xlsx
+2026-11-28 13:47:12,361 INFO Reading west.xlsx
+2026-11-28 13:47:12,367 INFO Read 97 rows
+2026-11-28 13:47:12,850 ERROR The report robot failed
+Traceback (most recent call last):
+  File "c:\Asif\Learning\AI\Python\OfficeReport\main.py", line 121, in <module>
+    main()
+  File "c:\Asif\Learning\AI\Python\OfficeReport\main.py", line 61, in main
+    pdf.cell(text=title, new_x='LMARGIN', new_y='NEXT')
+  File "C:\Asif\Learning\AI\Python\OfficeReport\.venv\Lib\site-packages\fpdf\fpdf.py", line 150, in wrapper
+    return fn(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FPDF.cell() got an unexpected keyword argument 'text'
+2026-11-28 14:17:58,808 INFO Report robot started
+2026-11-28 14:17:58,808 INFO Reading east.xlsx
+2026-11-28 14:17:58,816 INFO Reading north.xlsx
+2026-11-28 14:17:58,818 INFO Reading south.xlsx
+2026-11-28 14:17:58,820 INFO Reading west.xlsx
+2026-11-28 14:17:58,822 INFO Read 97 rows
+2026-11-28 14:17:59,178 INFO Report saved to C:\Asif\Learning\AI\Python\OfficeReport\output\sales_report_2026-11-28.pdf
